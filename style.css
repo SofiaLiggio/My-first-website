@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+#navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#navbar .container ul {
+  display: flex;
+  padding-right: 1rem;
+}
+
+#navbar .container ul li {
+  list-style: none;
+}
+
+#navbar .container ul li a {
+  padding: 20px;
+  display: block;
+}
+
+#navbar .container h1 {
+  text-transform: uppercase;
+  padding-left: 1rem;
+}
