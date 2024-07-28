@@ -9,8 +9,14 @@ body {
 }
 
 a {
-  color: #333;
+  color: #fff;
   text-decoration: none;
+}
+
+/* HEADER */
+
+#navbar {
+  background: #333;
 }
 
 #navbar .container {
@@ -35,5 +41,35 @@ a {
 
 #navbar .container h1 {
   text-transform: uppercase;
-  padding-left: 1rem;
+  padding-left: 1.5rem;
+}
+
+#navbar ul li a:hover,
+#navbar ul li.current {
+  background: #555;
+  color: orange;
+}
+
+/* SECTION */
+#showcase .container {
+  display: flex;
+  flex-direction: column;
+  height: 70vh;
+  background: url(./img/pane\ principale.jpg) no-repeat center center/cover;
+  justify-content: center;
+  align-items: center;
+}
+
+#showcase .container h1 {
+  color: #fff;
+  font-size: 3rem;
+}
+
+#showcase .container p {
+  color: #fff;
+  font-size: 1rem;
+}
+
+.color-primary {
+  color: orange;
 }
