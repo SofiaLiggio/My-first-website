@@ -9,8 +9,32 @@ body {
 }
 
 a {
-  color: #fff;
+  color: #eee;
   text-decoration: none;
+}
+
+/* UTILITY */
+.btn {
+  display: inline-block;
+  font-size: 15px;
+  color: #fff;
+  background: #333;
+  padding: 13px 18px;
+  border: none;
+}
+
+.btn-light {
+  background: #bbb;
+  color: #333;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.btn:hover {
+  background: orange;
+  color: #333;
 }
 
 /* HEADER */
@@ -63,13 +87,44 @@ a {
 #showcase .container h1 {
   color: #fff;
   font-size: 3rem;
+  padding-bottom: 2rem;
 }
 
 #showcase .container p {
   color: #fff;
-  font-size: 1rem;
+  font-size: 1.2rem;
+  padding-bottom: 2rem;
 }
 
 .color-primary {
   color: orange;
+}
+
+/* SECTION 2 */
+#showcase-2 .container {
+  display: flex;
+  height: 350px;
+}
+
+#showcase-2 .container .image {
+  background: url(./img/3\ pani.jpg) no-repeat center center/cover;
+  flex: 1;
+}
+
+#showcase-2 .container .section-text {
+  display: flex;
+  flex: 1;
+  background: #333;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+#showcase-2 .container .section-text h1 {
+  padding-bottom: 20px;
+}
+
+#showcase-2 .container .section-text p {
+  padding-bottom: 20px;
 }
